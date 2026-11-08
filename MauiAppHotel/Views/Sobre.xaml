@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             BackgroundColor="#E2E2E2">
+
+    <VerticalStackLayout
+        Padding="30"
+        Spacing="20"
+        VerticalOptions="Center"
+        HorizontalOptions="Center">
+
+        <Label
+            Text="Sobre o Aplicativo"
+            FontSize="30"
+            FontAttributes="Bold"
+            TextColor="#5735D8"
+            HorizontalOptions="Center"/>
+
+        <Label
+            Text="🏨 MauiAppHotel"
+            FontSize="24"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            TextColor="#333333"/>
+
+        <Label
+            Text="Aplicativo de contratação de hospedagem."
+            FontSize="17"
+            HorizontalTextAlignment="Center"
+            TextColor="#333333"/>
+
+        <BoxView
+            HeightRequest="2"
+            Color="#5735D8"
+            Margin="0,10"/>
+
+        <Label
+            Text="Desenvolvedor: Márcio Greick"
+            FontSize="18"
+            HorizontalOptions="Center"
+            TextColor="#333333"/>
+
+        <Label
+            Text="Ano de desenvolvimento: 2026"
+            FontSize="18"
+            HorizontalOptions="Center"
+            TextColor="#333333"/>
+
+        <Label
+            Text=".NET MAUI | C#"
+            FontSize="15"
+            HorizontalOptions="Center"
+            TextColor="#5735D8"/>
+
+    </VerticalStackLayout>
+</ContentPage>
